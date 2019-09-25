@@ -1,7 +1,7 @@
 #Script to get result using blindsql in post method
 #Test with sleep(5) to see whehter blind sql is injectable, if so remember to replace < ' sleep(5) -- - > with general_command() mentioned below.
 
-Some sample sql_command
+#Some sample sql_command
 #1:'current_user()',
 #2:'database()',
 #3:'(select password from Users where id=1)',
